@@ -7,7 +7,7 @@ define('DB_NAME', 'shareposts');
 // App root 
 define('APPROOT', dirname(dirname(__FILE__)));
 // URL Root
-define('URLROOT', '/php-share-posts');
+define('URLROOT', 'http://localhost/php-share-posts');
 //Site name
 define('SITENAME', 'SharePosts');
 // App version
