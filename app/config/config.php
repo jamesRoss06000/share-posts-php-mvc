@@ -7,7 +7,7 @@ define('DB_NAME', 'shareposts');
 // App root 
 define('APPROOT', dirname(dirname(__FILE__)));
 // URL Root
-define('URLROOT', 'https://share-posts-php-mvc.herokuapp.com');
+define('URLROOT', 'https://share-posts-php-mvc.herokuapp.com/app');
 //Site name
 define('SITENAME', 'SharePosts');
 // App version
