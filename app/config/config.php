@@ -1,9 +1,13 @@
 <?php
+$user = getenv('USERNAME');
+$pass = getenv('PASSWORD');
+$data = getenv('DATABASE');
+
 // DB Params
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '123456');
-define('DB_NAME', 'shareposts');
+define('DB_HOST', 'remotemysql.com');
+define('DB_USER', $user);
+define('DB_PASS', $pass);
+define('DB_NAME', $data);
 // App root 
 define('APPROOT', dirname(dirname(__FILE__)));
 // URL Root
