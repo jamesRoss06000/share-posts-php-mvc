@@ -1,13 +1,14 @@
 <?php
-$user = getenv('USERNAME');
-$pass = getenv('PASSWORD');
-$data = getenv('DATABASE');
+$host= getenv('DB_HOST');
+$user= getenv('DB_USER');
+$pass= getenv('DB_PASS');
+$name= getenv('DB_NAME');
 
 // DB Params
-define('DB_HOST', 'remotemysql.com');
-define('DB_USER', 'TnuAWjwlHS');
-define('DB_PASS', 'SaXj67gCa7');
-define('DB_NAME', 'TnuAWjwlHS');
+define('DB_HOST', $host);
+define('DB_USER', $user);
+define('DB_PASS', $pass);
+define('DB_NAME', $name);
 // App root 
 define('APPROOT', dirname(dirname(__FILE__)));
 // URL Root
