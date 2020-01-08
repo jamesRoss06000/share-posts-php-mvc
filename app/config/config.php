@@ -5,9 +5,9 @@ $data = getenv('DATABASE');
 
 // DB Params
 define('DB_HOST', 'remotemysql.com');
-define('DB_USER', $user);
-define('DB_PASS', $pass);
-define('DB_NAME', $data);
+define('DB_USER', 'TnuAWjwlHS');
+define('DB_PASS', 'SaXj67gCa7');
+define('DB_NAME', 'TnuAWjwlHS');
 // App root 
 define('APPROOT', dirname(dirname(__FILE__)));
 // URL Root
